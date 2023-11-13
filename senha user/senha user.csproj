@@ -52,11 +52,41 @@
     <Compile Include="CadastroEmpresa.Designer.cs">
       <DependentUpon>CadastroEmpresa.cs</DependentUpon>
     </Compile>
+    <Compile Include="cbocdtteste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cbocdtteste.Designer.cs">
+      <DependentUpon>cbocdtteste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cdtempresaalteratest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cdtempresaalteratest.Designer.cs">
+      <DependentUpon>cdtempresaalteratest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cdtempresacadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cdtempresacadastro.Designer.cs">
+      <DependentUpon>cdtempresacadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cdtfuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cdtfuncionario.Designer.cs">
+      <DependentUpon>cdtfuncionario.cs</DependentUpon>
+    </Compile>
     <Compile Include="GerarHolerite.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GerarHolerite.Designer.cs">
       <DependentUpon>GerarHolerite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hometest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hometest.Designer.cs">
+      <DependentUpon>Hometest.cs</DependentUpon>
     </Compile>
     <Compile Include="Telalogin.cs">
       <SubType>Form</SubType>
@@ -103,8 +133,23 @@
     <EmbeddedResource Include="CadastroEmpresa.resx">
       <DependentUpon>CadastroEmpresa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="cbocdtteste.resx">
+      <DependentUpon>cbocdtteste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cdtempresaalteratest.resx">
+      <DependentUpon>cdtempresaalteratest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cdtempresacadastro.resx">
+      <DependentUpon>cdtempresacadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cdtfuncionario.resx">
+      <DependentUpon>cdtfuncionario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GerarHolerite.resx">
       <DependentUpon>GerarHolerite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hometest.resx">
+      <DependentUpon>Hometest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telalogin.resx">
       <DependentUpon>Telalogin.cs</DependentUpon>
