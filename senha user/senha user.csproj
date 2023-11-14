@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cadastrafuncionariotest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastrafuncionariotest.Designer.cs">
+      <DependentUpon>cadastrafuncionariotest.cs</DependentUpon>
+    </Compile>
     <Compile Include="CadastroEmpresa.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CadastroEmpresa.Designer.cs">
       <DependentUpon>CadastroEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cboalteratest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cboalteratest.Designer.cs">
+      <DependentUpon>cboalteratest.cs</DependentUpon>
     </Compile>
     <Compile Include="cbocdtteste.cs">
       <SubType>Form</SubType>
@@ -58,11 +70,23 @@
     <Compile Include="cbocdtteste.Designer.cs">
       <DependentUpon>cbocdtteste.cs</DependentUpon>
     </Compile>
+    <Compile Include="cbobuscatest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cbobuscatest.Designer.cs">
+      <DependentUpon>cbobuscatest.cs</DependentUpon>
+    </Compile>
     <Compile Include="cdtempresaalteratest.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="cdtempresaalteratest.Designer.cs">
       <DependentUpon>cdtempresaalteratest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cdtempresabuscatest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cdtempresabuscatest.Designer.cs">
+      <DependentUpon>cdtempresabuscatest.cs</DependentUpon>
     </Compile>
     <Compile Include="cdtempresacadastro.cs">
       <SubType>Form</SubType>
@@ -70,17 +94,35 @@
     <Compile Include="cdtempresacadastro.Designer.cs">
       <DependentUpon>cdtempresacadastro.cs</DependentUpon>
     </Compile>
-    <Compile Include="cdtfuncionario.cs">
+    <Compile Include="folhadepontotest.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="cdtfuncionario.Designer.cs">
-      <DependentUpon>cdtfuncionario.cs</DependentUpon>
+    <Compile Include="folhadepontotest.Designer.cs">
+      <DependentUpon>folhadepontotest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="funcionarioalteratest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="funcionarioalteratest.Designer.cs">
+      <DependentUpon>funcionarioalteratest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="funcionariobuscatest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="funcionariobuscatest.Designer.cs">
+      <DependentUpon>funcionariobuscatest.cs</DependentUpon>
     </Compile>
     <Compile Include="GerarHolerite.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GerarHolerite.Designer.cs">
       <DependentUpon>GerarHolerite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="holeriteteste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="holeriteteste.Designer.cs">
+      <DependentUpon>holeriteteste.cs</DependentUpon>
     </Compile>
     <Compile Include="Hometest.cs">
       <SubType>Form</SubType>
@@ -130,23 +172,44 @@
     <Compile Include="telainicial.Designer.cs">
       <DependentUpon>telainicial.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="cadastrafuncionariotest.resx">
+      <DependentUpon>cadastrafuncionariotest.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CadastroEmpresa.resx">
       <DependentUpon>CadastroEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cboalteratest.resx">
+      <DependentUpon>cboalteratest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="cbocdtteste.resx">
       <DependentUpon>cbocdtteste.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="cbobuscatest.resx">
+      <DependentUpon>cbobuscatest.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="cdtempresaalteratest.resx">
       <DependentUpon>cdtempresaalteratest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cdtempresabuscatest.resx">
+      <DependentUpon>cdtempresabuscatest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="cdtempresacadastro.resx">
       <DependentUpon>cdtempresacadastro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="cdtfuncionario.resx">
-      <DependentUpon>cdtfuncionario.cs</DependentUpon>
+    <EmbeddedResource Include="folhadepontotest.resx">
+      <DependentUpon>folhadepontotest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="funcionarioalteratest.resx">
+      <DependentUpon>funcionarioalteratest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="funcionariobuscatest.resx">
+      <DependentUpon>funcionariobuscatest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GerarHolerite.resx">
       <DependentUpon>GerarHolerite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="holeriteteste.resx">
+      <DependentUpon>holeriteteste.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hometest.resx">
       <DependentUpon>Hometest.cs</DependentUpon>

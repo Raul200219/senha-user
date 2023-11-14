@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace senha_user
 {
-    public partial class cdtfuncionario : Form
+    public partial class cbobuscatest : Form
     {
-        public cdtfuncionario()
+        public cbobuscatest()
         {
             InitializeComponent();
         }
