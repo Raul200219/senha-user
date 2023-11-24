@@ -52,12 +52,6 @@
     <Compile Include="cadastrafuncionariotest.Designer.cs">
       <DependentUpon>cadastrafuncionariotest.cs</DependentUpon>
     </Compile>
-    <Compile Include="CadastroEmpresa.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CadastroEmpresa.Designer.cs">
-      <DependentUpon>CadastroEmpresa.cs</DependentUpon>
-    </Compile>
     <Compile Include="cboalteratest.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,12 +106,6 @@
     <Compile Include="funcionariobuscatest.Designer.cs">
       <DependentUpon>funcionariobuscatest.cs</DependentUpon>
     </Compile>
-    <Compile Include="GerarHolerite.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GerarHolerite.Designer.cs">
-      <DependentUpon>GerarHolerite.cs</DependentUpon>
-    </Compile>
     <Compile Include="holeriteteste.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,23 +118,11 @@
     <Compile Include="Hometest.Designer.cs">
       <DependentUpon>Hometest.cs</DependentUpon>
     </Compile>
-    <Compile Include="Telalogin.cs">
+    <Compile Include="logintest.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Telalogin.Designer.cs">
-      <DependentUpon>Telalogin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CadastroCBO.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CadastroCBO.Designer.cs">
-      <DependentUpon>CadastroCBO.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CadastroFuncionario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CadastroFuncionario.Designer.cs">
-      <DependentUpon>CadastroFuncionario.cs</DependentUpon>
+    <Compile Include="logintest.Designer.cs">
+      <DependentUpon>logintest.cs</DependentUpon>
     </Compile>
     <Compile Include="masterDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -158,25 +134,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>masterDataSet1.xsd</DependentUpon>
     </Compile>
-    <Compile Include="HorasdoFuncionario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="HorasdoFuncionario.Designer.cs">
-      <DependentUpon>HorasdoFuncionario.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="telainicial.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="telainicial.Designer.cs">
-      <DependentUpon>telainicial.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="cadastrafuncionariotest.resx">
       <DependentUpon>cadastrafuncionariotest.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CadastroEmpresa.resx">
-      <DependentUpon>CadastroEmpresa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="cboalteratest.resx">
       <DependentUpon>cboalteratest.cs</DependentUpon>
@@ -205,26 +166,14 @@
     <EmbeddedResource Include="funcionariobuscatest.resx">
       <DependentUpon>funcionariobuscatest.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GerarHolerite.resx">
-      <DependentUpon>GerarHolerite.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="holeriteteste.resx">
       <DependentUpon>holeriteteste.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hometest.resx">
       <DependentUpon>Hometest.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Telalogin.resx">
-      <DependentUpon>Telalogin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CadastroCBO.resx">
-      <DependentUpon>CadastroCBO.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CadastroFuncionario.resx">
-      <DependentUpon>CadastroFuncionario.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="HorasdoFuncionario.resx">
-      <DependentUpon>HorasdoFuncionario.cs</DependentUpon>
+    <EmbeddedResource Include="logintest.resx">
+      <DependentUpon>logintest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -235,9 +184,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="telainicial.resx">
-      <DependentUpon>telainicial.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="masterDataSet.xsc">
       <DependentUpon>masterDataSet.xsd</DependentUpon>
     </None>

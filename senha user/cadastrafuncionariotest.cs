@@ -16,5 +16,10 @@ namespace senha_user
         {
             InitializeComponent();
         }
+
+        private void cadastrafuncionariotest_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
