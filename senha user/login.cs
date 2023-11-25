@@ -93,5 +93,7 @@ namespace senha_user
                 textBox2.UseSystemPasswordChar = true;
             }
         }
+
+        
     }
 }
