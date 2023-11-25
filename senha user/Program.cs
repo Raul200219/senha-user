@@ -24,7 +24,7 @@ namespace senha_user
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new logintest());
+            Application.Run(new Home());
         }
     }
 }

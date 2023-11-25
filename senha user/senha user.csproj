@@ -46,83 +46,83 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="cadastrafuncionariotest.cs">
+    <Compile Include="funcionariocadastrar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="cadastrafuncionariotest.Designer.cs">
-      <DependentUpon>cadastrafuncionariotest.cs</DependentUpon>
+    <Compile Include="funcionariocadastrar.Designer.cs">
+      <DependentUpon>funcionariocadastrar.cs</DependentUpon>
     </Compile>
-    <Compile Include="cboalteratest.cs">
+    <Compile Include="cboalterar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="cboalteratest.Designer.cs">
-      <DependentUpon>cboalteratest.cs</DependentUpon>
+    <Compile Include="cboalterar.Designer.cs">
+      <DependentUpon>cboalterar.cs</DependentUpon>
     </Compile>
-    <Compile Include="cbocdtteste.cs">
+    <Compile Include="cbocadastro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="cbocdtteste.Designer.cs">
-      <DependentUpon>cbocdtteste.cs</DependentUpon>
+    <Compile Include="cbocadastro.Designer.cs">
+      <DependentUpon>cbocadastro.cs</DependentUpon>
     </Compile>
-    <Compile Include="cbobuscatest.cs">
+    <Compile Include="cbobuscar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="cbobuscatest.Designer.cs">
-      <DependentUpon>cbobuscatest.cs</DependentUpon>
+    <Compile Include="cbobuscar.Designer.cs">
+      <DependentUpon>cbobuscar.cs</DependentUpon>
     </Compile>
-    <Compile Include="cdtempresaalteratest.cs">
+    <Compile Include="empresaalterar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="cdtempresaalteratest.Designer.cs">
-      <DependentUpon>cdtempresaalteratest.cs</DependentUpon>
+    <Compile Include="empresaalterar.Designer.cs">
+      <DependentUpon>empresaalterar.cs</DependentUpon>
     </Compile>
-    <Compile Include="cdtempresabuscatest.cs">
+    <Compile Include="empresabuscar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="cdtempresabuscatest.Designer.cs">
-      <DependentUpon>cdtempresabuscatest.cs</DependentUpon>
+    <Compile Include="empresabuscar.Designer.cs">
+      <DependentUpon>empresabuscar.cs</DependentUpon>
     </Compile>
-    <Compile Include="cdtempresacadastro.cs">
+    <Compile Include="empresacadastrar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="cdtempresacadastro.Designer.cs">
-      <DependentUpon>cdtempresacadastro.cs</DependentUpon>
+    <Compile Include="empresacadastrar.Designer.cs">
+      <DependentUpon>empresacadastrar.cs</DependentUpon>
     </Compile>
-    <Compile Include="folhadepontotest.cs">
+    <Compile Include="folhadeponto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="folhadepontotest.Designer.cs">
-      <DependentUpon>folhadepontotest.cs</DependentUpon>
+    <Compile Include="folhadeponto.Designer.cs">
+      <DependentUpon>folhadeponto.cs</DependentUpon>
     </Compile>
-    <Compile Include="funcionarioalteratest.cs">
+    <Compile Include="funcionarioalterar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="funcionarioalteratest.Designer.cs">
-      <DependentUpon>funcionarioalteratest.cs</DependentUpon>
+    <Compile Include="funcionarioalterar.Designer.cs">
+      <DependentUpon>funcionarioalterar.cs</DependentUpon>
     </Compile>
-    <Compile Include="funcionariobuscatest.cs">
+    <Compile Include="funcionariobuscar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="funcionariobuscatest.Designer.cs">
-      <DependentUpon>funcionariobuscatest.cs</DependentUpon>
+    <Compile Include="funcionariobuscar.Designer.cs">
+      <DependentUpon>funcionariobuscar.cs</DependentUpon>
     </Compile>
-    <Compile Include="holeriteteste.cs">
+    <Compile Include="holerite.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="holeriteteste.Designer.cs">
-      <DependentUpon>holeriteteste.cs</DependentUpon>
+    <Compile Include="holerite.Designer.cs">
+      <DependentUpon>holerite.cs</DependentUpon>
     </Compile>
-    <Compile Include="Hometest.cs">
+    <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Hometest.Designer.cs">
-      <DependentUpon>Hometest.cs</DependentUpon>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="logintest.cs">
+    <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="logintest.Designer.cs">
-      <DependentUpon>logintest.cs</DependentUpon>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
     </Compile>
     <Compile Include="masterDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -136,44 +136,44 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="cadastrafuncionariotest.resx">
-      <DependentUpon>cadastrafuncionariotest.cs</DependentUpon>
+    <EmbeddedResource Include="funcionariocadastrar.resx">
+      <DependentUpon>funcionariocadastrar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="cboalteratest.resx">
-      <DependentUpon>cboalteratest.cs</DependentUpon>
+    <EmbeddedResource Include="cboalterar.resx">
+      <DependentUpon>cboalterar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="cbocdtteste.resx">
-      <DependentUpon>cbocdtteste.cs</DependentUpon>
+    <EmbeddedResource Include="cbocadastro.resx">
+      <DependentUpon>cbocadastro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="cbobuscatest.resx">
-      <DependentUpon>cbobuscatest.cs</DependentUpon>
+    <EmbeddedResource Include="cbobuscar.resx">
+      <DependentUpon>cbobuscar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="cdtempresaalteratest.resx">
-      <DependentUpon>cdtempresaalteratest.cs</DependentUpon>
+    <EmbeddedResource Include="empresaalterar.resx">
+      <DependentUpon>empresaalterar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="cdtempresabuscatest.resx">
-      <DependentUpon>cdtempresabuscatest.cs</DependentUpon>
+    <EmbeddedResource Include="empresabuscar.resx">
+      <DependentUpon>empresabuscar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="cdtempresacadastro.resx">
-      <DependentUpon>cdtempresacadastro.cs</DependentUpon>
+    <EmbeddedResource Include="empresacadastrar.resx">
+      <DependentUpon>empresacadastrar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="folhadepontotest.resx">
-      <DependentUpon>folhadepontotest.cs</DependentUpon>
+    <EmbeddedResource Include="folhadeponto.resx">
+      <DependentUpon>folhadeponto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="funcionarioalteratest.resx">
-      <DependentUpon>funcionarioalteratest.cs</DependentUpon>
+    <EmbeddedResource Include="funcionarioalterar.resx">
+      <DependentUpon>funcionarioalterar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="funcionariobuscatest.resx">
-      <DependentUpon>funcionariobuscatest.cs</DependentUpon>
+    <EmbeddedResource Include="funcionariobuscar.resx">
+      <DependentUpon>funcionariobuscar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="holeriteteste.resx">
-      <DependentUpon>holeriteteste.cs</DependentUpon>
+    <EmbeddedResource Include="holerite.resx">
+      <DependentUpon>holerite.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Hometest.resx">
-      <DependentUpon>Hometest.cs</DependentUpon>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="logintest.resx">
-      <DependentUpon>logintest.cs</DependentUpon>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
